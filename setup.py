@@ -35,8 +35,7 @@ setup(
         'q2_types_genomics.feature_data.tests':
             ['data/*', 'data/mags-fa/*', 'data/mags-fasta/*'],
         'q2_types_genomics.genome_data.tests':
-            ['data/*', 'data/genes/*', 'data/loci/*',
-             'data/loci-invalid/*', 'data/proteins/*']
+            ['data/*', 'data/genes/*', 'data/*/*']
     },
     zip_safe=False,
 )
